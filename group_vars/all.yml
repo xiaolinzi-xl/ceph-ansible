@@ -12,7 +12,7 @@ ceph_repository: community
 ceph_mirror: https://mirrors.tuna.tsinghua.edu.cn/ceph/
 ceph_stable_key: https://mirrors.tuna.tsinghua.edu.cn/ceph/keys/release.asc
 ceph_stable_release: octopus
-ceph_stable_repo: https://mirrors.tuna.tsinghua.edu.cn/ceph/rpm-15.2.7/el7/
+ceph_stable_repo: "{{ ceph_mirror }}/debian-{{ ceph_stable_release }}"
 monitor_interface: enp0s8
 public_network: 192.168.56.0/24
 cluster_network: 192.168.56.0/24
