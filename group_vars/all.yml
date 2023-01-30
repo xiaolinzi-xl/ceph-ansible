@@ -6,7 +6,24 @@
 # Dummy variable to avoid error because ansible does not recognize the
 # file as a good configuration file when no variable in it.
 dummy:
-
+ceph_repository_type: repository
+ceph_origin: repository
+ceph_repository: community
+ceph_mirror: https://mirrors.tuna.tsinghua.edu.cn/ceph/
+ceph_stable_key: https://mirrors.tuna.tsinghua.edu.cn/ceph/keys/release.asc
+ceph_stable_release: octopus
+ceph_stable_repo: https://mirrors.tuna.tsinghua.edu.cn/ceph/rpm-15.2.7/el7/
+monitor_interface: enp0s8
+public_network: 192.168.56.0/24
+cluster_network: 192.168.56.0/24
+osd_objectstore: bluestore
+radosgw_civetweb_port: 8080
+radosgw_interface: enp0s8
+dashboard_enabled: True
+dashboard_admin_user: admin
+dashboard_admin_password: 123456
+grafana_admin_user: admin
+grafana_admin_password: 123456
 # You can override vars by using host or group vars
 
 ###########

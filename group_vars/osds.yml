@@ -33,8 +33,8 @@ dummy:
 # All scenario(except 3rd) inherit from the following device declaration
 # Note: This scenario uses the ceph-volume lvm batch method to provision OSDs
 
-#devices:
-#  - /dev/sdb
+devices:
+ - /dev/sdc
 #  - /dev/sdc
 #  - /dev/sdd
 #  - /dev/sde
