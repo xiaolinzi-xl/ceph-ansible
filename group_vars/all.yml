@@ -21,9 +21,9 @@ radosgw_civetweb_port: 8080
 radosgw_interface: enp0s8
 dashboard_enabled: True
 dashboard_admin_user: admin
-dashboard_admin_password: 123456
+dashboard_admin_password: p@ssw0rd
 grafana_admin_user: admin
-grafana_admin_password: 123456
+grafana_admin_password: p@ssw0rd
 # You can override vars by using host or group vars
 
 ###########
